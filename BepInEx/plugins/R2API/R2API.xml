@@ -204,11 +204,6 @@
             <param name="difficulty">The difficulty to add.</param>
             <returns>DifficultyIndex.Invalid if it fails. Your index otherwise.</returns>
         </member>
-        <member name="P:R2API.DirectorAPI.Loaded">
-            <summary>
-            Return true if the submodule is loaded.
-            </summary>
-        </member>
         <member name="E:R2API.DirectorAPI.StageSettingsActions">
             <summary>
             Event used to edit stage settings.
@@ -317,7 +312,7 @@
             The current stage. If set to custom, check customStageName.
             </summary>
         </member>
-        <member name="F:R2API.DirectorAPI.StageInfo.CustomStageName">
+        <member name="F:R2API.DirectorAPI.StageInfo.customStageName">
             <summary>
             This is set to the name of the custom stage. Is left blank for vanilla stages.
             </summary>
@@ -337,29 +332,29 @@
             All mods will be working off the same settings, so operators like *=,+=,-=, and /= are preferred over directly setting values.
             </summary>
         </member>
-        <member name="F:R2API.DirectorAPI.StageSettings.SceneDirectorMonsterCredits">
+        <member name="F:R2API.DirectorAPI.StageSettings.sceneDirectorMonsterCredits">
             <summary>
             How many credits the scene director has for monsters at the start of a stage.
             This scales with difficulty, and thus will always be zero on the first stage.
             </summary>
         </member>
-        <member name="F:R2API.DirectorAPI.StageSettings.SceneDirectorInteractableCredits">
+        <member name="F:R2API.DirectorAPI.StageSettings.sceneDirectorInteractableCredits">
             <summary>
             How many credits the scene director has for interactables at the start of a stage.
             </summary>
         </member>
-        <member name="F:R2API.DirectorAPI.StageSettings.BonusCreditObjects">
+        <member name="F:R2API.DirectorAPI.StageSettings.bonusCreditObjects">
             <summary>
             If the GameObject key of the dictionary is enabled, then the scene director gains the value in extra interactable credits
             Used for things like the door in Abyssal Depths.
             </summary>
         </member>
-        <member name="F:R2API.DirectorAPI.StageSettings.MonsterCategoryWeights">
+        <member name="F:R2API.DirectorAPI.StageSettings.monsterCategoryWeights">
             <summary>
             The weights for each monster category on this stage.
             </summary>
         </member>
-        <member name="F:R2API.DirectorAPI.StageSettings.InteractableCategoryWeights">
+        <member name="F:R2API.DirectorAPI.StageSettings.interactableCategoryWeights">
             <summary>
             The weights for each interactable category on this stage.
             </summary>
@@ -369,17 +364,17 @@
             A wrapper class for DirectorCards. A list of these is passed to everything subscribed to monsterActions and interactableActions.
             </summary>
         </member>
-        <member name="F:R2API.DirectorAPI.DirectorCardHolder.Card">
+        <member name="F:R2API.DirectorAPI.DirectorCardHolder.card">
             <summary>
             The director card. This contains the majority of the information for an interactable or monster, including the prefab.
             </summary>
         </member>
-        <member name="F:R2API.DirectorAPI.DirectorCardHolder.MonsterCategory">
+        <member name="F:R2API.DirectorAPI.DirectorCardHolder.monsterCategory">
             <summary>
             The monster category the card belongs to. Will be set to None for interactables.
             </summary>
         </member>
-        <member name="F:R2API.DirectorAPI.DirectorCardHolder.InteractableCategory">
+        <member name="F:R2API.DirectorAPI.DirectorCardHolder.interactableCategory">
             <summary>
             The interactable category the card belongs to. Will be set to none for monsters.
             </summary>
@@ -389,54 +384,54 @@
             A wrapper class for Monster Families. A list of these is passed to everything subscribed to familyActions.
             </summary>
         </member>
-        <member name="F:R2API.DirectorAPI.MonsterFamilyHolder.FamilyBasicMonsters">
+        <member name="F:R2API.DirectorAPI.MonsterFamilyHolder.familyBasicMonsters">
             <summary>
             List of all basic monsters that can spawn during this family event.
             </summary>
         </member>
-        <member name="F:R2API.DirectorAPI.MonsterFamilyHolder.FamilyMinibosses">
+        <member name="F:R2API.DirectorAPI.MonsterFamilyHolder.familyMinibosses">
             <summary>
             List of all minibosses that can spawn during this family event.
             </summary>
         </member>
-        <member name="F:R2API.DirectorAPI.MonsterFamilyHolder.FamilyChampions">
+        <member name="F:R2API.DirectorAPI.MonsterFamilyHolder.familyChampions">
             <summary>
             List of all champions that can spawn during this family event.
             </summary>
         </member>
-        <member name="F:R2API.DirectorAPI.MonsterFamilyHolder.FamilyBasicMonsterWeight">
+        <member name="F:R2API.DirectorAPI.MonsterFamilyHolder.familyBasicMonsterWeight">
             <summary>
             The selection weight for basic monsters during the family event.
             </summary>
         </member>
-        <member name="F:R2API.DirectorAPI.MonsterFamilyHolder.FamilyMinibossWeight">
+        <member name="F:R2API.DirectorAPI.MonsterFamilyHolder.familyMinibossWeight">
             <summary>
             The selection weight for minibosses during the family event.
             </summary>
         </member>
-        <member name="F:R2API.DirectorAPI.MonsterFamilyHolder.FamilyChampionWeight">
+        <member name="F:R2API.DirectorAPI.MonsterFamilyHolder.familyChampionWeight">
             <summary>
             The selection weight for champions during the family event.
             </summary>
         </member>
-        <member name="F:R2API.DirectorAPI.MonsterFamilyHolder.MinStageCompletion">
+        <member name="F:R2API.DirectorAPI.MonsterFamilyHolder.minStageCompletion">
             <summary>
             The minimum number of stages completed for this family event to occur.
             </summary>
         </member>
-        <member name="F:R2API.DirectorAPI.MonsterFamilyHolder.MaxStageCompletion">
+        <member name="F:R2API.DirectorAPI.MonsterFamilyHolder.maxStageCompletion">
             <summary>
             The maximum number of stages for this family event to occur.
             </summary>
         </member>
-        <member name="F:R2API.DirectorAPI.MonsterFamilyHolder.FamilySelectionWeight">
+        <member name="F:R2API.DirectorAPI.MonsterFamilyHolder.familySelectionWeight">
             <summary>
             The weight of this monster family relative to other monster families.
             Does NOT increase the chances of a family event occuring, just the chance that this will be chosen when one does occur.
             Support for modifying the chance of family events overall will come later (and will be in StageSettings)
             </summary>
         </member>
-        <member name="F:R2API.DirectorAPI.MonsterFamilyHolder.SelectionChatString">
+        <member name="F:R2API.DirectorAPI.MonsterFamilyHolder.selectionChatString">
             <summary>
             The message sent to chat when this family is selected.
             </summary>
@@ -586,12 +581,7 @@
             <param name="stage">The stage to divide on</param>
             <param name="customStageName">The name of the custom stage</param>
         </member>
-        <member name="P:R2API.EffectAPI.Loaded">
-            <summary>
-            Return true if the submodule is loaded.
-            </summary>
-        </member>
-        <member name="E:R2API.EffectAPI.GetAdditionalEntries">
+        <member name="E:R2API.EffectAPI.getAdditionalEntries">
             <summary>
             Mimics events found in CatalogModHelpers, can be used to add or sort effects.
             </summary>
@@ -600,7 +590,7 @@
             <summary>
             Creates an EffectDef from a prefab and adds it to the EffectCatalog.
             The prefab must have an the following components: EffectComponent, VFXAttributes
-            For more control over the EffectDef, use AddEffect(EffectDef)
+            For more control over the EffectDef, use AddEffect( EffectDef )
             </summary>
             <param name="effect">The prefab of the effect to be added</param>
             <returns>True if the effect was added</returns>
@@ -612,7 +602,7 @@
             <param name="effect">The EffectDef to addZ</param>
             <returns>False if the EffectDef was null</returns>
         </member>
-        <member name="M:R2API.ItemAPI.Add(R2API.CustomItem)">
+        <member name="M:R2API.ItemAPI.AddCustomItem(R2API.CustomItem)">
             <summary>
             Add a custom item to the list of available items.
             Value for ItemDef.ItemIndex can be ignored.
@@ -621,7 +611,7 @@
             <param name="item">The item to add.</param>
             <returns>the ItemIndex of your item if added. -1 otherwise</returns>
         </member>
-        <member name="M:R2API.ItemAPI.Add(R2API.CustomEquipment)">
+        <member name="M:R2API.ItemAPI.AddCustomEquipment(R2API.CustomEquipment)">
             <summary>
             Add a custom equipment item to the list of available items.
             Value for EquipmentDef.ItemIndex can be ignored.
@@ -630,7 +620,7 @@
             <param name="item">The equipment item to add.</param>
             <returns>the EquipmentIndex of your item if added. -1 otherwise</returns>
         </member>
-        <member name="M:R2API.ItemAPI.Add(R2API.CustomBuff)">
+        <member name="M:R2API.ItemAPI.AddCustomBuff(R2API.CustomBuff)">
             <summary>
             Add a custom buff to the list of available buffs.
             Value for BuffDef.buffIndex can be ignored.
@@ -639,7 +629,7 @@
             <param name="buff">The buff to add.</param>
             <returns>the BuffIndex of your item if added. -1 otherwise</returns>
         </member>
-        <member name="M:R2API.ItemAPI.Add(R2API.CustomElite)">
+        <member name="M:R2API.ItemAPI.AddCustomElite(R2API.CustomElite)">
             <summary>
             Add a custom item to the list of available elites.
             Value for EliteDef.eliteIndex can be ignored.
@@ -704,11 +694,6 @@
             If Elite Spawning Overhaul is disabled, it will use this tier to set cost/hp/dmg scaling.  Even if your mod is
             only intended to work with ESO enabled, this should still be set to a valid number 1-2 for compatibility with
             the underlying game code.
-            </summary>
-        </member>
-        <member name="P:R2API.LoadoutAPI.Loaded">
-            <summary>
-            Return true if the submodule is loaded.
             </summary>
         </member>
         <member name="M:R2API.LoadoutAPI.AddSkill(System.Type)">
@@ -892,19 +877,19 @@
             An API for sending and retreiving a list of mods (and config settings) in multiplayer.
             </summary>
         </member>
-        <member name="F:R2API.ModListAPI.MessageIndex">
+        <member name="F:R2API.ModListAPI.messageIndex">
             <summary>
             The constant index used by the networkMessages
             </summary>
         </member>
-        <member name="F:R2API.ModListAPI.MessageWaitTimeServer">
+        <member name="F:R2API.ModListAPI.messageWaitTimeServer">
             <summary>
-            The amount of time that the server waits to receive a message before assuming a client is vanilla.
+            The amount of time that the server waits to recieve a message before assuming a client is vanilla.
             </summary>
         </member>
-        <member name="F:R2API.ModListAPI.MessageWaitTimeClient">
+        <member name="F:R2API.ModListAPI.messageWaitTimeClient">
             <summary>
-            The amount of time a client waits to receive a message before assuming a server is vanilla.
+            The amount of time a client waits to recieve a message before assuming a server is vanilla.
             </summary>
         </member>
         <member name="P:R2API.ModListAPI.Loaded">
@@ -912,22 +897,22 @@
             Is ModListAPI loaded and working?
             </summary>
         </member>
-        <member name="P:R2API.ModListAPI.CurrentServerMods">
+        <member name="P:R2API.ModListAPI.currentServerMods">
             <summary>
             The ModList from the current server. null if not connected to a server.
             </summary>
         </member>
-        <member name="P:R2API.ModListAPI.ConnectedClientMods">
+        <member name="P:R2API.ModListAPI.connectedClientMods">
             <summary>
-            A dictionary of ModLists for every connected player (and players who have been connected) by NetworkConnection. null if server inactive.
+            A dictionary of ModLists for every connected player (and players who have been connected) by steamID. null if server inactive.
             </summary>
         </member>
-        <member name="E:R2API.ModListAPI.ModListReceivedFromServer">
+        <member name="E:R2API.ModListAPI.modlistRecievedFromServer">
             <summary>
             An event invoked whenever a server sends its ModList.
             </summary>
         </member>
-        <member name="E:R2API.ModListAPI.ModListReceivedFromClient">
+        <member name="E:R2API.ModListAPI.modlistRecievedFromClient">
             <summary>
             An event invoked whenever a client sends its ModList to server.
             </summary>
@@ -959,19 +944,9 @@
             A list of mods.
             </summary>
         </member>
-        <member name="P:R2API.ModListAPI.ModList.Mods">
+        <member name="P:R2API.ModListAPI.ModList.mods">
             <summary>
             A readonly collection of ModInfos.
-            </summary>
-        </member>
-        <member name="P:R2API.ModListAPI.ModList.IsVanilla">
-            <summary>
-            Is this modlist empty?
-            </summary>
-        </member>
-        <member name="P:R2API.ModListAPI.ModList.Vanilla">
-            <summary>
-            An empty modlist
             </summary>
         </member>
         <member name="M:R2API.ModListAPI.ModList.TextRepresentation">
@@ -980,22 +955,32 @@
             </summary>
             <returns>the string with each mod on its own line</returns>
         </member>
+        <member name="P:R2API.ModListAPI.ModList.isVanilla">
+            <summary>
+            Is this modlist empty?
+            </summary>
+        </member>
+        <member name="P:R2API.ModListAPI.ModList.vanilla">
+            <summary>
+            An empty modlist
+            </summary>
+        </member>
         <member name="T:R2API.ModListAPI.ModInfo">
             <summary>
             An entry in a list of mods, represents a single mod.
             </summary>
         </member>
-        <member name="P:R2API.ModListAPI.ModInfo.Guid">
+        <member name="P:R2API.ModListAPI.ModInfo.guid">
             <summary>
             The (hopefully unique) GUID of the mod as a string.
             </summary>
         </member>
-        <member name="P:R2API.ModListAPI.ModInfo.Version">
+        <member name="P:R2API.ModListAPI.ModInfo.version">
             <summary>
             The version of the Mod
             </summary>
         </member>
-        <member name="P:R2API.ModListAPI.ModInfo.HasConfig">
+        <member name="P:R2API.ModListAPI.ModInfo.hasConfig">
             <summary>
             Does this ModInfo have a config?
             </summary>
@@ -1023,33 +1008,11 @@
         </member>
         <member name="M:R2API.ModListAPI.ModInfo.GetConfigValue``1(BepInEx.Configuration.ConfigEntry{``0})">
             <summary>
-            Gets a value in the mod's config from the ConfigEntry used to bind it.
+            Gets a value in the config for the mod from the ConfigEntry used to bind it.
             </summary>
             <typeparam name="T">The Type of the value to get</typeparam>
             <param name="configEntry">The ConfigEntry that was used to bind it.</param>
             <returns>The value from the config</returns>
-        </member>
-        <member name="M:R2API.ModListAPI.ModInfo.GetConfigValue``1(System.String,System.String)">
-            <summary>
-            Gets a value in the mod's config from the key and section of the setting.
-            </summary>
-            <typeparam name="T"></typeparam>
-            <param name="key">The key of the setting</param>
-            <param name="section">The section the setting is in</param>
-            <returns>The value from the config</returns>
-        </member>
-        <member name="M:R2API.ModListAPI.ModInfo.GetConfigValue(System.String,System.String)">
-            <summary>
-            Gets a value in the mod's config from the key and section of the setting as System.Object.
-            </summary>
-            <param name="key">The key of the setting</param>
-            <param name="section">The section the setting is in</param>
-            <returns>The value from the config as System.Object</returns>
-        </member>
-        <member name="P:R2API.OrbAPI.Loaded">
-            <summary>
-            Return true if the submodule is loaded.
-            </summary>
         </member>
         <member name="M:R2API.OrbAPI.AddOrb(System.Type)">
             <summary>
@@ -1059,11 +1022,6 @@
             </summary>
             <param name="t">The type of the orb being added</param>
             <returns>True if orb will be added</returns>
-        </member>
-        <member name="P:R2API.PrefabAPI.Loaded">
-            <summary>
-            Return true if the submodule is loaded.
-            </summary>
         </member>
         <member name="M:R2API.PrefabAPI.InstantiateClone(UnityEngine.GameObject,System.String,System.Boolean,System.String,System.String,System.Int32)">
             <summary>
@@ -1084,19 +1042,6 @@
             Do not override the file, member, and line number parameters. They are used to generate a unique hash for the network ID.
             </summary>
             <param name="g">The prefab to register</param>
-        </member>
-        <member name="T:R2API.ResourcesAPI">
-            <summary>
-            Allow to register AssetBundles for Mod Makers.
-            </summary>
-        </member>
-        <member name="M:R2API.ResourcesAPI.AddProvider(R2API.IResourceProvider)">
-            <summary>
-            Add an AssetBundleResourcesProvider to the API.
-            A prefix usually looks like this: "@MyModPrefix"
-            More information on the R2API Wiki.
-            </summary>
-            <param name="provider">assetbundle provider to give, usually made with an AssetBundleResourcesProvider(prefix, assetbundle)</param>
         </member>
         <member name="M:R2API.SkillAPI.AddSkill(System.Type)">
             <summary>
@@ -1138,11 +1083,6 @@
             <param name="skin"></param>
             <returns></returns>
         </member>
-        <member name="P:R2API.SurvivorAPI.Loaded">
-            <summary>
-            Return true if the submodule is loaded.
-            </summary>
-        </member>
         <member name="M:R2API.SurvivorAPI.AddSurvivor(RoR2.SurvivorDef)">
             <summary>
             Add a SurvivorDef to the list of available survivors.
@@ -1154,33 +1094,6 @@
             </summary>
             <param name="survivor">The survivor to add.</param>
             <returns>true if survivor will be added</returns>
-        </member>
-        <member name="T:R2API.Utils.R2APISubmoduleDependency">
-            <summary>
-            Attribute to have at the top of your BaseUnityPlugin class if you want to load a specific R2API Submodule.
-            Parameter(s) are the nameof the submodules.
-            e.g: [R2APISubmoduleDependency("SurvivorAPI", "ItemAPI")]
-            </summary>
-        </member>
-        <member name="T:R2API.Utils.APISubmoduleHandler">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:R2API.Utils.APISubmoduleHandler.IsLoaded(System.String)">
-            <summary>
-            Return true if the specified submodule is loaded.
-            </summary>
-            <param name="submodule">nameof the submodule</param>
-        </member>
-        <member name="M:R2API.Utils.EnumerableExtensions.ForEachTry``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0},System.Collections.Generic.IDictionary{``0,System.Exception})">
-            <summary>
-            ForEach but with a try catch in it.
-            </summary>
-            <param name="list">the enumerable object</param>
-            <param name="action">the action to do on it</param>
-            <param name="exceptions">the exception dictionary that will get filled, null by default if you simply want to silence the errors if any pop.</param>
-            <typeparam name="T"></typeparam>
         </member>
         <member name="M:R2API.Utils.ChatMessage.Send(System.String)">
             <summary>
