@@ -12,7 +12,3 @@ UnityPlayer.dll
 WinPixEventRuntime.dll
 
 MonoBleedingEdge/
-
-BepInEx/cache/chainloader_typeloader.dat
-
-BepInEx/LogOutput.log
