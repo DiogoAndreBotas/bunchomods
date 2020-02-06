@@ -25,34 +25,20 @@
 [Message: Preloader] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 28 plugins to load
-[Info   :   BepInEx] Loading [R2API 2.3.20]
-[Info   :     R2API] Requested R2API Submodule: AssetPlus
-[Info   :     R2API] Requested R2API Submodule: DirectorAPI
-[Info   :     R2API] Requested R2API Submodule: SurvivorAPI
-[Info   :     R2API] Requested R2API Submodule: SkillAPI
-[Info   :     R2API] Requested R2API Submodule: EntityAPI
-[Info   :     R2API] Requested R2API Submodule: DifficultyAPI
-[Info   :     R2API] Requested R2API Submodule: ResourcesAPI
-[Info   :     R2API] Requested R2API Submodule: PrefabAPI
-[Info   :     R2API] Requested R2API Submodule: LoadoutAPI
-[Info   :     R2API] Found and Enabling R2API Submodule: R2API.DifficultyAPI
-[Info   :     R2API] Found and Enabling R2API Submodule: R2API.DirectorAPI
-[Info   :     R2API] Found and Enabling R2API Submodule: R2API.EntityAPI
-[Info   :     R2API] Found and Enabling R2API Submodule: R2API.LoadoutAPI
-[Info   :     R2API] Found and Enabling R2API Submodule: R2API.PrefabAPI
-[Info   :     R2API] Found and Enabling R2API Submodule: R2API.ResourcesAPI
-[Info   :     R2API] Found and Enabling R2API Submodule: R2API.SkillAPI
-[Info   :     R2API] Found and Enabling R2API Submodule: R2API.SurvivorAPI
-[Info   :     R2API] Found and Enabling R2API Submodule: R2API.AssetPlus.AssetPlus
+[Info   :   BepInEx] 29 plugins to load
+[Info   :   BepInEx] Loading [R2API 2.3.14]
+[Info   :     R2API] Enabling R2API Submodule: DifficultyAPI
+[Info   :     R2API] Enabling R2API Submodule: DirectorAPI
+[Info   :     R2API] Enabling R2API Submodule: EntityAPI
+[Info   :     R2API] Enabling R2API Submodule: ResourcesAPI
+[Info   :     R2API] Enabling R2API Submodule: SkillAPI
+[Info   :     R2API] Enabling R2API Submodule: SurvivorAPI
+[Info   :     R2API] Enabling R2API Submodule: AssetPlus
 [Info   :   BepInEx] Loading [DronesInheritItems 2.4.5]
 [Info   : Unity Log] DronesInheritItems v2.4.5 Loaded!
 [Info   :   BepInEx] Loading [Faster3DPrinters 1.0.0]
 [Info   :   BepInEx] Loading [ScalingBloodShrines 1.0.0]
 [Info   :   BepInEx] Loading [MobileTurretFungus 1.0]
-[Info   :   BepInEx] Loading [RPGMod 2.0.1]
-[Info   : Unity Log] <color=#13d3dd>RPGMod: </color> Config loaded
-[Info   : Unity Log] RPGMod: Loaded Successfully!
 [Info   :   BepInEx] Loading [Ordered Items 2.1.0]
 [Info   :   BepInEx] Loading [SteamBuildID 1.2.0]
 [Info   :   BepInEx] Loading [Diluvian 1.0.2]
@@ -70,17 +56,18 @@
 [Info   :   BepInEx] Loading [BiggerBazaar 1.7.3]
 [Info   :   BepInEx] Loading [BalancedObliterate 1.1.6]
 [Info   :   BepInEx] Loading [Bandit Classic 1.5.3]
-[Info   :   BepInEx] Loading [RyanSkinAPI 1.3.0]
+[Info   :   BepInEx] Loading [My Mod's Title 1.0.0]
 [Info   :   BepInEx] Loading [AllahuAkbarFuelArray 1.0.0]
 [Info   :   BepInEx] Loading [MultiTrackDriftingSurvivors 1.1.0]
 [Info   :   BepInEx] Loading [MultiTrackDriftingTurrets 2.0.0]
-[Info   :   BepInEx] Loading [General Balance + Fixes 2.1.0.32]
 [Info   :   BepInEx] Loading [ReinArchWisps 2.0.1]
+[Info   :   BepInEx] Loading [Boss Item Drop 1.0.0]
 [Info   :   BepInEx] Loading [DropInMultiplayer 3.0.1]
 [Info   : Unity Log] Created by SushiDev with help from IdeathHD and Harb! Derived from DropInMultiplayer by Morris1927 with permission.
 [Info   :   BepInEx] Loading [Versatile Survivors 1.0.0]
 [Info   :   BepInEx] Loading [Silly Items 0.4.1]
 [Info   :   BepInEx] Loading [ItemStats 1.4.0]
+[Info   :   BepInEx] Loading [SequenceOnDeath 1.0.2]
 [Info   :   BepInEx] Loading [MiniRpcLib 1.0]
 [Info   :MiniRpcLib] Initializing Logger
 [Info   :MiniRpcLib] Initializing MiniRpc
@@ -89,6 +76,7 @@
 [Info   :MiniRpcLib] 3923704355[2] Registering action | Client
 [Info   :MiniRpcLib] 3923704355[3] Registering action | Server
 [Info   :   BepInEx] Loading [TooManyFriends 1.0]
+[Info   :   BepInEx] Loading [Skip Welcome Screen 1.0.1]
 [Message:   BepInEx] Chainloader startup complete
 [Info   : Unity Log] WwiseUnity: Sound engine initialized successfully.
 [Info   : Unity Log] Bloom: True
@@ -112,7 +100,6 @@
 [Info   : Unity Log] Initializing system: SurvivorCatalog
 [Warning: Unity Log] Unregistered survivor Bandit!
 [Info   :     R2API] Survivor: Bandit added
-[Info   : Unity Log] Added base skin to RoR2.SurvivorDef
 [Info   : Unity Log] Initializing system: UnlockableCatalog
 [Info   : Unity Log] Initializing system: UserProfile
 [Info   : Unity Log] Initializing system: StatDef
@@ -167,7 +154,7 @@
 [Info   : Unity Log] Initializing system: BodyLoadoutManager
 [Info   : Unity Log] Initializing system: RuleBook
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/66efcae5-9b2c-4e07-8c1d-27c142292fd4.xml
-[Info   : Unity Log] stream.Length=120057
+[Info   : Unity Log] stream.Length=120267
 [Info   : Unity Log] english
 [Info   : Unity Log] Setting current language to "en"
 [Info   : Unity Log] Loaded archived convars.
@@ -185,27 +172,18 @@
 [Info   : Unity Log] [HjUpdaterAPI] All registered mod have been checked for newer versions. This update process is now complete.
 [Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=Self listen=False maxPlayers=4 }
 [Info   : Unity Log] Unloaded scene title
-[Info   : Unity Log] FlashWindow.Flash(1181664)
+[Info   : Unity Log] FlashWindow.Flash(2297340)
 [Info   : Unity Log] Active scene changed from  to lobby
 [Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
 [Info   : Unity Log] Adding local player controller 0 on connection hostId: -1 connectionId: 0 isReady: False channel count: 0
 [Info   : Unity Log] GameNetworkManager.AddPlayerInternal(conn=hostId: -1 connectionId: 0 isReady: False channel count: 0, playerControllerId=0, extraMessageReader=NetBuf sz:251 pos:251
-[Info   : Unity Log] FlashWindow.Flash(1181664)
+[Info   : Unity Log] FlashWindow.Flash(2297340)
 [Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby currentSceneName=lobby
 [Error  : Unity Log] A connection has already been set as ready. There can only be one.
 [Info   : Unity Log] Player 0 already added, aborting.
-[Info   : Unity Log] Attempting to generate PreGameVoteController for Hugh G. Rection
-[Info   : Unity Log] <style=cEvent>Hugh G. Rection connected.</color>
-[Warning: Unity Log] Could not find transform "HuntressArmature/ROOT/base/BowRoot/BowStringIKTarget/ArrowDisplay/Flash" relative to "mdlHuntress".
-[Warning: Unity Log] Could not find transform "ToolbotArmature/ROOT/base/stomach/chest/upper_arm.l/lower_arm.l/toolbase/speargun.base/speargun.spear/RebarMesh" relative to "mdlToolbot".
-[Info   : Unity Log] NetworkUser(Clone) (RoR2.NetworkUser)
-[Info   : Unity Log] voteController.SetVote(0, 2)
-[Info   : Unity Log] RPGMod: Client handlers added
+[Info   : Unity Log] Attempting to generate PreGameVoteController for Boots
+[Info   : Unity Log] <style=cEvent>Boots connected.</color>
 [Info   : Unity Log] Unloaded scene lobby
-[Info   : Unity Log] 0
-[Info   : Unity Log] 1
-[Info   : Unity Log] 2
-[Info   : Unity Log] 3
 [Info   : Unity Log] Active scene changed from  to golemplains2
 [Info   : Unity Log] Loaded scene golemplains2 loadSceneMode=Single
 [Info   : Unity Log] OnClientSceneChanged networkSceneName=golemplains2 currentSceneName=golemplains2
@@ -218,382 +196,19 @@ Stack trace:
 StatsDisplay.StatsDisplay.Update () (at <372153f7ecc04005aa28b4f525d700b7>:0)
 
 [Error  : Unity Log] Object PodGroundImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] COLLECT 100 Gold to receive: <color=#77FF17FF>Hopoo Feather</color>
-[Info   : Unity Log] Upgrading font asset [Roboto-Medium SDF] to version 1.1.0.
-[Info   : Unity Log] Upgrading font asset [Roboto-Regular SDF] to version 1.1.0.
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
 [Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Focus Crystal</color></color>
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Warbanner</color></color>
-[Info   : Unity Log] <style=cEvent>You activated the <style=cDeath>Teleporter <sprite name="TP" tint=1></style>.</style>
-[Info   : Unity Log] OPEN 4 Chests to receive: <color=#77FF17FF>War Horn</color>
-[Info   : Unity Log] Transfered 6.4 monster credits from Director (UnityEngine.GameObject) to Director (UnityEngine.GameObject)
-[Info   : Unity Log] Transfered 14.56 monster credits from Director (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
-[Info   : Unity Log] Transfered 16 monster credits from Teleporter1(Clone) (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>Bandolier</color></color>
-[Info   : Unity Log] KILL 5 Lemurians to receive: <color=#77FF17FF>Kjaro's Band</color>
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Error  : Unity Log] WwiseUnity: EventCallbackPackage not found for <359755392>.
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>Infusion</color></color>
-[Error  : Unity Log] WwiseUnity: EventCallbackPackage not found for <-47678592>.
-[Info   : Unity Log] HEAL 257 Damage to receive: <color=#77FF17FF>Predatory Instincts</color>
-[Info   : Unity Log] Unloaded scene golemplains2
-[Info   : Unity Log] 0
-[Info   : Unity Log] 1
-[Info   : Unity Log] 2
-[Info   : Unity Log] 3
-[Info   : Unity Log] Active scene changed from  to goolake
-[Info   : Unity Log] Loaded scene goolake loadSceneMode=Single
-[Info   : Unity Log] OnClientSceneChanged networkSceneName=goolake currentSceneName=goolake
-[Info   : Unity Log] Client ready.
-[Info   : Unity Log] Player 0 already added, aborting.
-[Info   : Unity Log] Spending 220 credits on interactables...
-[Error  : Unity Log] FileNotFoundException: Could not load file or assembly 'TextMeshPro-1.0.55.2017.1.0b11, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
-Stack trace:
-StatsDisplay.StatsDisplay.Update () (at <372153f7ecc04005aa28b4f525d700b7>:0)
-
-[Info   : Unity Log] OPEN 4 Chests to receive: <color=#77FF17FF>War Horn</color>
-[Info   : Unity Log] HEAL 257 Damage to receive: <color=#77FF17FF>Predatory Instincts</color>
-[Info   : Unity Log] Upgrading font asset [Roboto-Medium SDF] to version 1.1.0.
-[Info   : Unity Log] Upgrading font asset [Roboto-Regular SDF] to version 1.1.0.
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] <style=cShrine>You have invited the challenge of the Mountain..</color>
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] COLLECT 178 Gold to receive: <color=#77FF17FF>War Horn</color>
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Lens-Maker's Glasses</color></color>
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Error  : Unity Log] Object BeetleGuardGroundSlam(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Error  : Unity Log] Object BeetleGuardDeathImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Cautious Slug</color></color>
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>Will-o'-the-wisp</color></color>
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] Resetting skill FireShotgun
-[Info   : Unity Log] KILL 7 Lesser Wisps to receive: <color=#77FF17FF>Chronobauble</color>
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Topaz Brooch</color></color>
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] <style=cEvent>You activated the <style=cDeath>Teleporter <sprite name="TP" tint=1></style>.</style>
-[Info   : Unity Log] <style=cShrine>Let the challenge of the Mountain... begin!</style>
-[Info   : Unity Log] Transfered 7.6 monster credits from Director (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
-[Info   : Unity Log] Transfered 41.2 monster credits from Director (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
-[Error  : Unity Log] Object TitanSpawnEffect(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Error  : Unity Log] Object TitanSpawnEffect(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Info   : Unity Log] Transfered 218.64 monster credits from Teleporter1(Clone) (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] COLLECT 226 Gold to receive: <color=#77FF17FF>Leeching Seed</color>
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Error  : Unity Log] Object TitanRechargeRocksEffect(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Error  : Unity Log] Object TitanRechargeRocksEffect(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Error  : Unity Log] Cannot set the parent of the GameObject 'Sparks,Wiggly' while activating or deactivating the parent GameObject 'TitanRechargeRocksEffect(Clone)'.
-[Error  : Unity Log] Cannot set the parent of the GameObject 'Sparks, Trail' while activating or deactivating the parent GameObject 'TitanRechargeRocksEffect(Clone)'.
-[Error  : Unity Log] Cannot set the parent of the GameObject '3DDebris' while activating or deactivating the parent GameObject 'TitanRechargeRocksEffect(Clone)'.
-[Info   : Unity Log] Resetting skill LightsOut
-[Info   : Unity Log] Resetting skill Cloak
-[Error  : Unity Log] Object BeetleGuardDeathImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Error  : Unity Log] Object TitanRechargeRocksEffect(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Error  : Unity Log] Object BeetleGuardGroundSlam(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] KILL 5 Lesser Wisps to receive: <color=#77FF17FF>Razorwire</color>
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Error  : Unity Log] Object TitanRechargeRocksEffect(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Error  : Unity Log] Cannot set the parent of the GameObject 'Sparks,Wiggly' while activating or deactivating the parent GameObject 'TitanRechargeRocksEffect(Clone)'.
-[Error  : Unity Log] Cannot set the parent of the GameObject 'Sparks, Trail' while activating or deactivating the parent GameObject 'TitanRechargeRocksEffect(Clone)'.
-[Error  : Unity Log] Cannot set the parent of the GameObject '3DDebris' while activating or deactivating the parent GameObject 'TitanRechargeRocksEffect(Clone)'.
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>Leeching Seed</color>(2)</color>
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>Leeching Seed</color>(3)</color>
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] Unloaded scene goolake
-[Info   : Unity Log] Active scene changed from  to wispgraveyard
-[Info   : Unity Log] Loaded scene wispgraveyard loadSceneMode=Single
-[Info   : Unity Log] OnClientSceneChanged networkSceneName=wispgraveyard currentSceneName=wispgraveyard
-[Info   : Unity Log] Client ready.
-[Info   : Unity Log] Player 0 already added, aborting.
-[Info   : Unity Log] Spending 280 credits on interactables...
-[Error  : Unity Log] FileNotFoundException: Could not load file or assembly 'TextMeshPro-1.0.55.2017.1.0b11, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
-Stack trace:
-StatsDisplay.StatsDisplay.Update () (at <372153f7ecc04005aa28b4f525d700b7>:0)
-
-[Info   : Unity Log] OPEN 4 Chests to receive: <color=#77FF17FF>War Horn</color>
-[Info   : Unity Log] KILL 5 Lesser Wisps to receive: <color=#77FF17FF>Razorwire</color>
-[Info   : Unity Log] Upgrading font asset [Roboto-Medium SDF] to version 1.1.0.
-[Info   : Unity Log] Upgrading font asset [Roboto-Regular SDF] to version 1.1.0.
-[Info   : Unity Log] Ping target MultiShopTerminal(Clone) (UnityEngine.GameObject)
-[Info   : Unity Log] <style=cIsDamage>Hugh G. Rection has found: Multishop Terminal (Tri-Tip Dagger) (<nobr><color=#EFEB1A>$89</color></nobr>).</style>
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Error  : Unity Log] Object BeetleGuardDeathImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Tri-Tip Dagger</color></color>
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] Resetting skill FireShotgun
-[Info   : Unity Log] Resetting skill LightsOut
-[Info   : Unity Log] Resetting skill Grenade
-[Info   : Unity Log] HEAL 609 Damage to receive: <color=#77FF17FF>Old War Stealthkit</color>
-[Info   : Unity Log] Ping target Chest2(Clone) (UnityEngine.GameObject)
-[Info   : Unity Log] <style=cIsDamage>Hugh G. Rection has found: Large Chest (<nobr><color=#EFEB1A>$179</color></nobr>).</style>
-[Error  : Unity Log] Object BeetleGuardGroundSlam(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Error  : Unity Log] Object BeetleGuardGroundSlam(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Info   : Unity Log] <style=cShrine>You feel a searing pain. You have gained 95 gold.</color>
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Error  : Unity Log] Object BeetleGuardDeathImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Info   : Unity Log] <style=cShrine>You feel a searing pain. You have gained 143 gold.</color>
-[Info   : Unity Log] KILL 6 Lesser Wisps to receive: <color=#77FF17FF>Wax Quail</color>
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>Old Guillotine</color></color>
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Rusted Key</color></color>
-[Info   : Unity Log] <style=cEvent>You activated the <style=cDeath>Teleporter <sprite name="TP" tint=1></style>.</style>
-[Info   : Unity Log] Transfered 2.8 monster credits from Director (UnityEngine.GameObject) to Director (UnityEngine.GameObject)
-[Info   : Unity Log] Transfered 27.12 monster credits from Director (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
-[Info   : Unity Log] Transfered 140.448 monster credits from Teleporter1(Clone) (UnityEngine.GameObject) to Teleporter1(Clone) (UnityEngine.GameObject)
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Medkit</color></color>
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] COLLECT 351 Gold to receive: <color=#77FF17FF>Hopoo Feather</color>
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] Resetting skill LightsOut
-[Info   : Unity Log] Resetting skill Cloak
-[Info   : Unity Log] Resetting skill FireShotgun
-[Error  : Unity Log] Object BeetleGuardDeathImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>Red Whip</color></color>
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] Resetting skill FireShotgun
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Error  : Unity Log] Object BeetleGuardDeathImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] Resetting skill FireShotgun
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Error  : Unity Log] Object BeetleGuardDeathImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] COLLECT 369 Gold to receive: <color=#77FF17FF>Lepton Daisy</color>
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Error  : Unity Log] Object BeetleGuardGroundSlam(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>War Horn</color>(3)</color>
-[Info   : Unity Log] Unloaded scene wispgraveyard
-[Info   : Unity Log] 0
-[Info   : Unity Log] 1
-[Info   : Unity Log] 2
-[Info   : Unity Log] 3
-[Info   : Unity Log] Active scene changed from  to shipgraveyard
-[Info   : Unity Log] Loaded scene shipgraveyard loadSceneMode=Single
-[Info   : Unity Log] OnClientSceneChanged networkSceneName=shipgraveyard currentSceneName=shipgraveyard
-[Info   : Unity Log] Client ready.
-[Info   : Unity Log] Player 0 already added, aborting.
-[Info   : Unity Log] Spending 400 credits on interactables...
-[Error  : Unity Log] FileNotFoundException: Could not load file or assembly 'TextMeshPro-1.0.55.2017.1.0b11, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
-Stack trace:
-StatsDisplay.StatsDisplay.Update () (at <372153f7ecc04005aa28b4f525d700b7>:0)
-
-[Info   : Unity Log] <style=cWorldEvent>A blue orb appears..</style>
-[Info   : Unity Log] COLLECT 369 Gold to receive: <color=#77FF17FF>Lepton Daisy</color>
-[Info   : Unity Log] Upgrading font asset [Roboto-Medium SDF] to version 1.1.0.
-[Info   : Unity Log] Upgrading font asset [Roboto-Regular SDF] to version 1.1.0.
-[Info   : Unity Log] Found egg!
-[Info   : Unity Log] Found egg!
-[Info   : Unity Log] Found egg!
-[Info   : Unity Log] Found egg!
-[Info   : Unity Log] Found egg!
-[Info   : Unity Log] Found egg!
-[Info   : Unity Log] Found egg!
-[Info   : Unity Log] Found egg!
-[Info   : Unity Log] Found egg!
-[Info   : Unity Log] Found egg!
-[Info   : Unity Log] Found egg!
-[Info   : Unity Log] Found egg!
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Error  : Unity Log] NullReferenceException
-Stack trace:
-UnityEngine.Component.GetComponent[T] () (at <f2abf40b37c34cf19b7fd98865114d88>:0)
-RoR2.EffectData.ResolveHurtBoxReference () (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
-RoR2.Orbs.OrbEffect.Start () (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
-
-[Info   : Unity Log] Look rotation viewing vector is zero
-[Info   : Unity Log] Look rotation viewing vector is zero
-[Error  : Unity Log] Object JellyfishDeath(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Error  : Unity Log] Object JellyfishDeath(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Error  : Unity Log] NullReferenceException
-Stack trace:
-UnityEngine.Component.GetComponent[T] () (at <f2abf40b37c34cf19b7fd98865114d88>:0)
-RoR2.EffectData.ResolveHurtBoxReference () (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
-RoR2.Orbs.OrbEffect.Start () (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
-
-[Info   : Unity Log] Look rotation viewing vector is zero
-[Error  : Unity Log] Object JellyfishDeath(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Info   : Unity Log] Look rotation viewing vector is zero
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Error  : Unity Log] Object RoboBallBossPreDeath(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Error  : Unity Log] NullReferenceException
-Stack trace:
-UnityEngine.Component.GetComponent[T] () (at <f2abf40b37c34cf19b7fd98865114d88>:0)
-RoR2.EffectData.ResolveHurtBoxReference () (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
-RoR2.Orbs.OrbEffect.Start () (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
-
-[Info   : Unity Log] Look rotation viewing vector is zero
-[Error  : Unity Log] Object JellyfishDeath(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Info   : Unity Log] Look rotation viewing vector is zero
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#77FF17>Infusion</color>(2)</color>
-[Error  : Unity Log] NullReferenceException
-Stack trace:
-UnityEngine.Component.GetComponent[T] () (at <f2abf40b37c34cf19b7fd98865114d88>:0)
-RoR2.EffectData.ResolveHurtBoxReference () (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
-RoR2.Orbs.OrbEffect.Start () (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
-
-[Info   : Unity Log] Look rotation viewing vector is zero
-[Error  : Unity Log] Object JellyfishDeath(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Info   : Unity Log] Look rotation viewing vector is zero
-[Info   : Unity Log] KILL 5 Beetles to receive: <color=#77FF17FF>Berzerker's Pauldron</color>
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Backup Magazine</color></color>
-[Error  : Unity Log] Object JellyfishDeath(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Error  : Unity Log] NullReferenceException
-Stack trace:
-UnityEngine.Component.GetComponent[T] () (at <f2abf40b37c34cf19b7fd98865114d88>:0)
-RoR2.EffectData.ResolveHurtBoxReference () (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
-RoR2.Orbs.OrbEffect.Start () (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
-
-[Info   : Unity Log] Look rotation viewing vector is zero
-[Error  : Unity Log] Object JellyfishDeath(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Info   : Unity Log] Look rotation viewing vector is zero
-[Error  : Unity Log] NullReferenceException
-Stack trace:
-UnityEngine.Component.GetComponent[T] () (at <f2abf40b37c34cf19b7fd98865114d88>:0)
-RoR2.EffectData.ResolveHurtBoxReference () (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
-RoR2.Orbs.OrbEffect.Start () (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
-
-[Info   : Unity Log] Look rotation viewing vector is zero
-[Error  : Unity Log] Object JellyfishDeath(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Info   : Unity Log] Look rotation viewing vector is zero
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Error  : Unity Log] Object JellyfishDeath(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Error  : Unity Log] Object JellyfishDeath(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Error  : Unity Log] NullReferenceException
-Stack trace:
-UnityEngine.Component.GetComponent[T] () (at <f2abf40b37c34cf19b7fd98865114d88>:0)
-RoR2.EffectData.ResolveHurtBoxReference () (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
-RoR2.Orbs.OrbEffect.Start () (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
-
-[Info   : Unity Log] Look rotation viewing vector is zero
-[Error  : Unity Log] Object JellyfishDeath(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Info   : Unity Log] Look rotation viewing vector is zero
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Error  : Unity Log] Object JellyfishDeath(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Paul's Goat Hoof</color></color>
-[Error  : Unity Log] Object JellyfishDeath(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
+[Info   : Unity Log] <style=cEvent>You picked up <color=#FF8000>Fuel Array</color></color>
+[Info   : Unity Log] tp back
+[Info   : Unity Log] Collision (UnityEngine.GameObject) is missing surface def
+[Info   : Unity Log] Collision (UnityEngine.GameObject) is missing surface def
+[Info   : Unity Log] Collision (UnityEngine.GameObject) is missing surface def
+[Info   : Unity Log] tp back
+[Info   : Unity Log] Should have played the sound!!!!
+[Info   : Unity Log] Boots has blessed this run.
+[Info   : Unity Log] <style=cDeath><sprite name="Skull" tint=1> Choose a new character? <sprite name="Skull" tint=1></style>
+[Info   : Unity Log] Collision (UnityEngine.GameObject) is missing surface def
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   : Unity Log] Saved file "66efcae5-9b2c-4e07-8c1d-27c142292fd4.xml" (120269 bytes)
+[Info   : Unity Log] Shutting down Steamworks...
+[Info   : Unity Log] Shut down Steamworks.
+[Info   : Unity Log] Transfered 4.8 monster credits from Director (UnityEngine.GameObject) to Director (UnityEngine.GameObject)
