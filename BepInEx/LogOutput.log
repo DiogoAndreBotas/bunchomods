@@ -26,6 +26,7 @@
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
 [Info   :   BepInEx] 30 plugins to load
+[Warning:   BepInEx] Skipping because a newer version exists [Screaming Vagrant 1.0.0]
 [Info   :   BepInEx] Loading [R2API 2.3.14]
 [Info   :     R2API] Enabling R2API Submodule: DifficultyAPI
 [Info   :     R2API] Enabling R2API Submodule: DirectorAPI
@@ -33,15 +34,28 @@
 [Info   :     R2API] Enabling R2API Submodule: ResourcesAPI
 [Info   :     R2API] Enabling R2API Submodule: SkillAPI
 [Info   :     R2API] Enabling R2API Submodule: SurvivorAPI
+[Info   :     R2API] Enabling R2API Submodule: CommandHelper
 [Info   :     R2API] Enabling R2API Submodule: AssetPlus
 [Info   :   BepInEx] Loading [DronesInheritItems 2.4.5]
 [Info   : Unity Log] DronesInheritItems v2.4.5 Loaded!
-[Info   :   BepInEx] Loading [FuelArrayBless 1.0.0]
 [Info   :   BepInEx] Loading [Screaming Vagrant 1.0.0]
 [Info   :   BepInEx] Loading [Faster3DPrinters 1.0.0]
 [Info   :   BepInEx] Loading [ScalingBloodShrines 1.0.0]
 [Info   :   BepInEx] Loading [MobileTurretFungus 1.0]
 [Info   :   BepInEx] Loading [Ordered Items 2.1.0]
+[Info   :   BepInEx] Loading [MiniRpcLib 1.0]
+[Info   :MiniRpcLib] Initializing Logger
+[Info   :MiniRpcLib] Initializing MiniRpc
+[Info   :MiniRpcLib] 3923704355[0] Registering action | Server
+[Info   :MiniRpcLib] 3923704355[1] Registering action | Client
+[Info   :MiniRpcLib] 3923704355[2] Registering action | Client
+[Info   :MiniRpcLib] 3923704355[3] Registering action | Server
+[Info   :   BepInEx] Loading [DebugToolkit 3.2.0]
+[Info   :MiniRpcLib] 1008579798[0] Registering action | Client
+[Info   :DebugToolkit] Created by Harb, iDeathHD and . Based on RoR2Cheats by Morris1927.
+[Info   :MiniRpcLib] 1008579798[1] Registering action | Client
+[Info   :MiniRpcLib] 1008579798[2] Registering action | Client
+[Info   :MiniRpcLib] 1008579798[3] Registering action | Client
 [Info   :   BepInEx] Loading [Diluvian 1.0.2]
 [Info   :   BepInEx] Loading [HarbTweaks 1.0.0]
 [Message:HarbTweaks] Loaded Tweak: Bigger Lockboxes.
@@ -53,29 +67,21 @@
 [Info   :   BepInEx] Loading [HjUpdaterAPI 1.4.1]
 [Info   :   BepInEx] Loading [StatsDisplay 1.3]
 [Info   : Unity Log] Loaded StatsDisplayMod
-[Info   :   BepInEx] Loading [Thiccify 2.0.0]
 [Info   :   BepInEx] Loading [BazaarPrinter 0.1.1]
 [Info   :   BepInEx] Loading [BiggerBazaar 1.7.3]
+[Info   :   BepInEx] Loading [AllyPing 1.0.0]
 [Info   :   BepInEx] Loading [BalancedObliterate 1.1.6]
 [Info   :   BepInEx] Loading [Bandit Classic 1.5.3]
 [Info   :   BepInEx] Loading [AllahuAkbarFuelArray 1.0.0]
 [Info   :   BepInEx] Loading [MultiTrackDriftingSurvivors 1.1.0]
 [Info   :   BepInEx] Loading [MultiTrackDriftingTurrets 2.0.0]
 [Info   :   BepInEx] Loading [ReinArchWisps 2.0.1]
-[Info   :   BepInEx] Loading [Boss Item Drop 1.0.0]
 [Info   :   BepInEx] Loading [DropInMultiplayer 3.0.1]
 [Info   : Unity Log] Created by SushiDev with help from IdeathHD and Harb! Derived from DropInMultiplayer by Morris1927 with permission.
 [Info   :   BepInEx] Loading [Versatile Survivors 1.0.0]
 [Info   :   BepInEx] Loading [Silly Items 0.4.1]
 [Info   :   BepInEx] Loading [ItemStats 1.4.0]
 [Info   :   BepInEx] Loading [SequenceOnDeath 1.0.2]
-[Info   :   BepInEx] Loading [MiniRpcLib 1.0]
-[Info   :MiniRpcLib] Initializing Logger
-[Info   :MiniRpcLib] Initializing MiniRpc
-[Info   :MiniRpcLib] 3923704355[0] Registering action | Server
-[Info   :MiniRpcLib] 3923704355[1] Registering action | Client
-[Info   :MiniRpcLib] 3923704355[2] Registering action | Client
-[Info   :MiniRpcLib] 3923704355[3] Registering action | Server
 [Info   :   BepInEx] Loading [TooManyFriends 1.0]
 [Info   :   BepInEx] Loading [Skip Welcome Screen 1.0.1]
 [Message:   BepInEx] Chainloader startup complete
@@ -155,231 +161,184 @@
 [Info   : Unity Log] Initializing system: BodyLoadoutManager
 [Info   : Unity Log] Initializing system: RuleBook
 [Info   : Unity Log] Attempting to load user profile /UserProfiles/66efcae5-9b2c-4e07-8c1d-27c142292fd4.xml
-[Info   : Unity Log] stream.Length=120716
+[Info   : Unity Log] stream.Length=120726
 [Info   : Unity Log] english
 [Info   : Unity Log] Setting current language to "en"
 [Info   : Unity Log] Loaded archived convars.
 [Info   : Unity Log] Could not load config /Config/autoexec.cfg: Could not find file "C:\Program Files (x86)\Steam\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\autoexec.cfg"
 [Info   : Unity Log] Active scene changed from  to title
 [Info   : Unity Log] Loaded scene title loadSceneMode=2
+[Info   :DebugToolkit] Loading all CSC's: 36
+[Info   :DebugToolkit] Loading all ISC's: 42
 [Message:HarbTweaks] Loaded Tweak: Shorter Medkits.
 [Info   : Unity Log] [HjUpdaterAPI] Checking updates for 6 mod(s)...
 [Info   : Unity Log] [HjUpdaterAPI] Mods list fetched.
 [Info   : Unity Log] [HjUpdaterAPI] The package (mod) named 'HjUpdaterAPI' (1.4.1) is up to date.
-[Info   : Unity Log] [HjUpdaterAPI] The package (mod) named 'Thiccify' (2.0.0) is up to date.
+[Info   : Unity Log] [HjUpdaterAPI] The package (mod) named 'AllyPing' (1.0.0) is up to date.
 [Info   : Unity Log] [HjUpdaterAPI] The package (mod) named 'BalancedObliterate' (1.1.6) is up to date.
 [Info   : Unity Log] [HjUpdaterAPI] The package (mod) named 'AllahuAkbarFuelArray' (1.0.0) is up to date.
 [Info   : Unity Log] [HjUpdaterAPI] The package (mod) named 'MultiTrackDriftingSurvivors' (1.1.0) is up to date.
 [Info   : Unity Log] [HjUpdaterAPI] The package (mod) named 'MultiTrackDriftingTurrets' (2.0.0) is up to date.
 [Info   : Unity Log] [HjUpdaterAPI] All registered mod have been checked for newer versions. This update process is now complete.
-[Info   : Unity Log] Steamworks lobby creation succeeded. Lobby id = 109775241116929221
-[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=Self listen=True maxPlayers=16 }
-[Info   : Unity Log] steamworksServer.IsValid=True
-[Info   : Unity Log] steamworksServer.LoggedOn=False
+[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=Self listen=False maxPlayers=4 }
 [Info   : Unity Log] Unloaded scene title
-[Info   : Unity Log] FlashWindow.Flash(77793852)
+[Info   : Unity Log] FlashWindow.Flash(987234)
 [Info   : Unity Log] Active scene changed from  to lobby
 [Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
 [Info   : Unity Log] Adding local player controller 0 on connection hostId: -1 connectionId: 0 isReady: False channel count: 0
 [Info   : Unity Log] GameNetworkManager.AddPlayerInternal(conn=hostId: -1 connectionId: 0 isReady: False channel count: 0, playerControllerId=0, extraMessageReader=NetBuf sz:251 pos:251
-[Info   : Unity Log] FlashWindow.Flash(77793852)
+[Info   : Unity Log] FlashWindow.Flash(987234)
 [Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby currentSceneName=lobby
 [Error  : Unity Log] A connection has already been set as ready. There can only be one.
 [Info   : Unity Log] Player 0 already added, aborting.
 [Info   : Unity Log] Attempting to generate PreGameVoteController for Hugh G. Rection
 [Info   : Unity Log] <style=cEvent>Hugh G. Rection connected.</color>
-[Info   : Unity Log] Steamworks Server IP discovered: 85.244.199.157
-[Info   : Unity Log] OnLobbyStateChanged memberStateChange=Entered initiatorUserId=76561198088970736 affectedUserId=76561198088970736
-[Info   : Unity Log] Incoming Steamworks connection from Steam ID 76561198088970736: accepted
-[Info   : Unity Log] GameNetworkManager.AddPlayerInternal(conn=hostId: 0 connectionId: 1 isReady: False channel count: 8, playerControllerId=0, extraMessageReader=NetBuf sz:251 pos:251
-[Error  : Unity Log] There is already a player at that playerControllerId for this connections.
-[Info   : Unity Log] <style=cEvent>SerBasti connected.</color>
-[Info   : Unity Log] NetworkUser(Clone) (RoR2.NetworkUser)
-[Info   : Unity Log] voteController.SetVote(0, 0)
+[Info   : Unity Log] [0]AncientWispMaster=???
+[1]ArchWispMaster=ArchaicWisp
+[2]BeetleGuardAllyMaster=BeetleGuard
+[3]BeetleGuardMaster=BeetleGuard
+[4]BeetleMaster=Beetle
+[5]BeetleQueenMaster=BeetleQueen
+[6]BellMaster=BrassContraption
+[7]BisonMaster=BighornBison
+[8]ClayBossMaster=ClayDunestrider
+[9]ClayBruiserMaster=ClayTemplar
+[10]ClaymanMaster=ClayMan
+[11]CommandoMonsterMaster=Commando
+[12]Drone1Master=GunnerDrone
+[13]Drone2Master=HealingDrone
+[14]DroneBackupMaster=StrikeDrone
+[15]DroneMissileMaster=MissileDrone
+[16]ElectricWormMaster=OverloadingWorm
+[17]EmergencyDroneMaster=EmergencyDrone
+[18]EngiBeamTurretMaster=EngineerTurret
+[19]EngiTurretMaster=EngineerTurret
+[20]EngiWalkerTurretMaster=EngineerTurret
+[21]EquipmentDroneMaster=EquipmentDrone
+[22]FlameDroneMaster=IncineratorDrone
+[23]GolemMaster=StoneGolem
+[24]GravekeeperMaster=Grovetender
+[25]GreaterWispMaster=GreaterWisp
+[26]HermitCrabMaster=HermitCrab
+[27]ImpBossMaster=ImpOverlord
+[28]ImpMaster=Imp
+[29]JellyfishMaster=Jellyfish
+[30]LemurianBruiserMaster=ElderLemurian
+[31]LemurianBruiserMasterFire=ElderLemurian
+[32]LemurianBruiserMasterHaunted=ElderLemurian
+[33]LemurianBruiserMasterIce=ElderLemurian
+[34]LemurianBruiserMasterPoison=ElderLemurian
+[35]LemurianMaster=Lemurian
+[36]MagmaWormMaster=MagmaWorm
+[37]MegaDroneMaster=TC280Prototype
+[38]MercMonsterMaster=Mercenary
+[39]NullifierMaster=VoidReaver
+[40]RoboBallBossMaster=SolusControlUnit
+[41]RoboBallMiniMaster=SolusProbe
+[42]ScavLunar1Master=KipkiptheGentle
+[43]ScavLunar2Master=WipwiptheWild
+[44]ScavLunar3Master=TwiptwiptheDevotee
+[45]ScavLunar4Master=GuraguratheLucky
+[46]ScavMaster=Scavenger
+[47]ShopkeeperMaster=Newt
+[48]SquidTurretMaster=SquidTurret
+[49]SuperRoboBallBossMaster=AlloyWorshipUnit
+[50]TitanGoldAllyMaster=Aurelionite
+[51]TitanGoldMaster=Aurelionite
+[52]TitanMaster=StoneTitan
+[53]Turret1Master=GunnerTurret
+[54]UrchinTurretMaster=MalachiteUrchin
+[55]VagrantMaster=WanderingVagrant
+[56]VultureMaster=AlloyVulture
+[57]WispMaster=LesserWisp
+
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+DebugToolkit.DebugToolkit.CCSpawnAI (RoR2.ConCommandArgs args) (at <759c65041bff463da8500a156a3830ad>:0)
+DMD<RunCmd>?-1592552960._RunCmd (RoR2.Console this, RoR2.NetworkUser sender, System.String concommandName, System.Collections.Generic.List`1[T] userArgs) (at <350829a6376b4f85ad60249854dde44d>:0)
+DebugToolkit.Hooks.LogNetworkCommandsAndCheckPermissions (On.RoR2.Console+orig_RunCmd orig, RoR2.Console self, RoR2.NetworkUser sender, System.String concommandName, System.Collections.Generic.List`1[T] userArgs) (at <759c65041bff463da8500a156a3830ad>:0)
+DMD<>?-1592552960._Hook<RoR2_Console::RunCmd>?1885966080 (RoR2.Console , RoR2.NetworkUser , System.String , System.Collections.Generic.List`1[T] ) (at <2d0522b9873b440cb5e0635c28d3401f>:0)
+DropInMultiplayer.DropInMultiplayer.CheckIfCmdIsRequest (On.RoR2.Console+orig_RunCmd orig, RoR2.Console self, RoR2.NetworkUser sender, System.String conCommandName, System.Collections.Generic.List`1[T] userArgs) (at <7a419e0a20444fb5be1a4a97e28a2551>:0)
+DMD<>?-1592552960._Hook<RoR2_Console::RunCmd>?-103278208 (RoR2.Console , RoR2.NetworkUser , System.String , System.Collections.Generic.List`1[T] ) (at <cb80df56b8bb4caea25165a4adaa4553>:0)
+RoR2.Console.SubmitCmd (RoR2.NetworkUser sender, System.String cmd, System.Boolean recordSubmit) (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
+RoR2.UI.ConsoleWindow.Submit (System.String text) (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at <f2abf40b37c34cf19b7fd98865114d88>:0)
+UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <f2abf40b37c34cf19b7fd98865114d88>:0)
+TMPro.TMP_InputField.SendOnSubmit () (at <1f24b7db95c34b4f9cc6abf5144e5633>:0)
+TMPro.TMP_InputField.OnUpdateSelected (UnityEngine.EventSystems.BaseEventData eventData) (at <1f24b7db95c34b4f9cc6abf5144e5633>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at <adbbd84a6a874fb3bb8dd55fe88db73d>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <adbbd84a6a874fb3bb8dd55fe88db73d>:0)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:SendUpdateEventToSelectedObject()
+Rewired.Integration.UnityUI.RewiredStandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+RoR2.UI.MPEventSystem:Update()
+
+[Info   : Unity Log] Saved file "66efcae5-9b2c-4e07-8c1d-27c142292fd4.xml" (120729 bytes)
+[Info   : Unity Log] Saved file "66efcae5-9b2c-4e07-8c1d-27c142292fd4.xml" (120726 bytes)
+[Info   : Unity Log] Saved file "66efcae5-9b2c-4e07-8c1d-27c142292fd4.xml" (120710 bytes)
+[Info   : Unity Log] Saved file "66efcae5-9b2c-4e07-8c1d-27c142292fd4.xml" (120706 bytes)
 [Info   : Unity Log] Unloaded scene lobby
-[Info   : Unity Log] Active scene changed from  to golemplains
-[Info   : Unity Log] Loaded scene golemplains loadSceneMode=Single
-[Info   : Unity Log] OnClientSceneChanged networkSceneName=golemplains currentSceneName=golemplains
+[Info   : Unity Log] Active scene changed from  to blackbeach
+[Info   : Unity Log] Loaded scene blackbeach loadSceneMode=Single
+[Info   : Unity Log] OnClientSceneChanged networkSceneName=blackbeach currentSceneName=blackbeach
 [Info   : Unity Log] Client ready.
 [Info   : Unity Log] Player 0 already added, aborting.
-[Info   : Unity Log] Spending 330 credits on interactables...
+[Info   : Unity Log] Spending 180 credits on interactables...
 [Info   : Unity Log] reorder list
 [Error  : Unity Log] FileNotFoundException: Could not load file or assembly 'TextMeshPro-1.0.55.2017.1.0b11, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
 Stack trace:
 StatsDisplay.StatsDisplay.Update () (at <372153f7ecc04005aa28b4f525d700b7>:0)
 
-[Info   : Unity Log] Client ready.
 [Error  : Unity Log] Object PodGroundImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Error  : Unity Log] Object PodGroundImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#FF8000>Fuel Array</color></color>
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent><noparse>SerBasti</noparse> picked up <color=#FF8000>Fuel Array</color></color>
-[Info   : Unity Log] Should have played the sound!!!!
-[Info   : Unity Log] <style=cDeath><sprite name="Skull" tint=1> It wasn't <noparse>SerBasti</noparse>'s time to die... <sprite name="Skull" tint=1></style>
-[Info   : Unity Log] <color=#00FF80>Hugh G. Rection</color> has blessed this run.
-[Info   : Unity Log] <style=cShrine><noparse>SerBasti</noparse> is... sequenced.</color>
-[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=None }
-[Info   : Unity Log] Network shutting down...
-[Info   : Unity Log] Server shutting down...
-[Info   : Unity Log] Kicking client on connection 1: Reason ServerShutdown
-[Info   : Unity Log] Issued kick message to all remote clients.
-[Info   : Unity Log] Closing connection with steamId 76561198088970736
-[Info   : Unity Log] Closing connection with steamId 76561198088970736
-[Warning: Unity Log] Empty player list given to NetworkServer.Destroy(), nothing to do.
-[Info   : Unity Log] <style=cEvent>SerBasti disconnected.</color>
-[Info   : Unity Log] Finished waiting for clients to disconnect.
-[Info   : Unity Log] StopHost()
-[Info   : Unity Log] Server shutdown complete.
-[Info   : Unity Log] OnLobbyStateChanged memberStateChange=Left initiatorUserId=76561198088970736 affectedUserId=76561198088970736
-[Info   : Unity Log] Unloaded scene golemplains
-[Info   : Unity Log] Active scene changed from  to title
-[Info   : Unity Log] Loaded scene title loadSceneMode=Single
-[Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=Self listen=True maxPlayers=16 }
-[Info   : Unity Log] steamworksServer.IsValid=True
-[Info   : Unity Log] steamworksServer.LoggedOn=False
-[Info   : Unity Log] Unloaded scene title
-[Info   : Unity Log] FlashWindow.Flash(77793852)
-[Info   : Unity Log] Active scene changed from  to lobby
-[Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
-[Info   : Unity Log] Press Enter to chat.
-[Info   : Unity Log] Adding local player controller 0 on connection hostId: -1 connectionId: 0 isReady: False channel count: 0
-[Info   : Unity Log] GameNetworkManager.AddPlayerInternal(conn=hostId: -1 connectionId: 0 isReady: False channel count: 0, playerControllerId=0, extraMessageReader=NetBuf sz:251 pos:251
-[Info   : Unity Log] FlashWindow.Flash(77793852)
-[Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby currentSceneName=lobby
-[Error  : Unity Log] A connection has already been set as ready. There can only be one.
-[Info   : Unity Log] Player 0 already added, aborting.
-[Info   : Unity Log] Attempting to generate PreGameVoteController for Hugh G. Rection
-[Info   : Unity Log] Applying persistent ballot of votes for LocalUser Givanildo, The Capoeira Fighter.
-[Info   : Unity Log] <style=cEvent>Hugh G. Rection connected.</color>
-[Info   : Unity Log] Steamworks Server IP discovered: 85.244.199.157
-[Warning: Unity Log] Could not find transform "ToolbotArmature/ROOT/base/stomach/chest/upper_arm.l/lower_arm.l/toolbase/speargun.base/speargun.spear/RebarMesh" relative to "mdlToolbot".
-[Warning: Unity Log] Could not find transform "HuntressArmature/ROOT/base/BowRoot/BowStringIKTarget/ArrowDisplay/Flash" relative to "mdlHuntress".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/clavicle.r/upper_arm.r/lower_arm.r/MuzzleRight/HeldRoller/RollerMesh" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/Fire" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/JetsR" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/JetsL" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/FireRing" relative to "mdlMage".
-[Info   : Unity Log] OnLobbyStateChanged memberStateChange=Entered initiatorUserId=76561198088970736 affectedUserId=76561198088970736
-[Info   : Unity Log] Incoming Steamworks connection from Steam ID 76561198088970736: accepted
-[Info   : Unity Log] GameNetworkManager.AddPlayerInternal(conn=hostId: 0 connectionId: 1 isReady: False channel count: 8, playerControllerId=0, extraMessageReader=NetBuf sz:251 pos:251
-[Error  : Unity Log] There is already a player at that playerControllerId for this connections.
-[Info   : Unity Log] <style=cEvent>SerBasti connected.</color>
-[Info   : Unity Log] NetworkUser(Clone) (RoR2.NetworkUser)
-[Info   : Unity Log] voteController.SetVote(0, 1)
-[Info   : Unity Log] NetworkUser(Clone) (RoR2.NetworkUser)
-[Info   : Unity Log] voteController.SetVote(0, 2)
-[Warning: Unity Log] Could not find transform "HuntressArmature/ROOT/base/BowRoot/BowStringIKTarget/ArrowDisplay/Flash" relative to "mdlHuntress".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/clavicle.r/upper_arm.r/lower_arm.r/MuzzleRight/HeldRoller/RollerMesh" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/Fire" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/JetsR" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/JetsL" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/FireRing" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/clavicle.r/upper_arm.r/lower_arm.r/MuzzleRight/HeldRoller/RollerMesh" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/Fire" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/JetsR" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/JetsL" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/FireRing" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/clavicle.r/upper_arm.r/lower_arm.r/MuzzleRight/HeldRoller/RollerMesh" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/Fire" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/JetsR" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/JetsL" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/FireRing" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/clavicle.r/upper_arm.r/lower_arm.r/MuzzleRight/HeldRoller/RollerMesh" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/Fire" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/JetsR" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/JetsL" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/FireRing" relative to "mdlMage".
-[Info   : Unity Log] Unloaded scene lobby
-[Info   : Unity Log] Active scene changed from  to blackbeach2
-[Info   : Unity Log] Loaded scene blackbeach2 loadSceneMode=Single
-[Info   : Unity Log] OnClientSceneChanged networkSceneName=blackbeach2 currentSceneName=blackbeach2
-[Info   : Unity Log] Client ready.
-[Info   : Unity Log] Player 0 already added, aborting.
-[Info   : Unity Log] Spending 270 credits on interactables...
-[Info   : Unity Log] reorder list
-[Error  : Unity Log] FileNotFoundException: Could not load file or assembly 'TextMeshPro-1.0.55.2017.1.0b11, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
-Stack trace:
-StatsDisplay.StatsDisplay.Update () (at <372153f7ecc04005aa28b4f525d700b7>:0)
-
-[Info   : Unity Log] Client ready.
-[Error  : Unity Log] Object PodGroundImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Error  : Unity Log] Object PodGroundImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#FF8000>Fuel Array</color></color>
+[Info   : Unity Log] Attempting to spawn: BeetleQueenMaster
+[Error  : Unity Log] Object BeetleQueenBurrow(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
 [Warning: Unity Log] Animator.GotoState: State could not be found
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Animator.GotoState: State could not be found
 [Warning: Unity Log] Invalid Layer Index '-1'
 [Warning: Unity Log] Animator.GotoState: State could not be found
 [Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] Base (UnityEngine.GameObject) is missing surface def
 [Warning: Unity Log] Animator.GotoState: State could not be found
 [Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] <style=cShrine>You feel a searing pain. You have gained 35 gold.</color>
-[Info   : Unity Log] Should have played the sound!!!!
-[Error  : Unity Log] Object ChargeMageLightningBomb(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
-Stack trace:
-RoR2.EffectComponent.Start () (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
-
-[Info   : Unity Log] <style=cDeath><sprite name="Skull" tint=1> They will surely feast on your flesh. <sprite name="Skull" tint=1></style>
-[Info   : Unity Log] <color=#00FF80>Hugh G. Rection</color> has blessed this run.
-[Info   : Unity Log] <style=cShrine>You have been... sequenced.</color>
-[Info   : Unity Log] <style=cShrine><noparse>SerBasti</noparse> feels a searing pain, and has gained 41 gold.</color>
-[Error  : Unity Log] Object ChargeMageLightningBomb(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
-Stack trace:
-RoR2.EffectComponent.Start () (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
-
 [Warning: Unity Log] Animator.GotoState: State could not be found
 [Warning: Unity Log] Invalid Layer Index '-1'
-[Error  : Unity Log] Object ChargeMageLightningBomb(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
-Stack trace:
-RoR2.EffectComponent.Start () (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
-
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent><noparse>SerBasti</noparse> picked up <color=#FFFFFF>Monster Tooth</color></color>
 [Warning: Unity Log] Animator.GotoState: State could not be found
 [Warning: Unity Log] Invalid Layer Index '-1'
-[Error  : Unity Log] Object ChargeMageLightningBomb(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
-Stack trace:
-RoR2.EffectComponent.Start () (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
-
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent><noparse>SerBasti</noparse> picked up <color=#FFFFFF>Bundle of Fireworks</color></color>
-[Error  : Unity Log] Object ChargeMageLightningBomb(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
-[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
-Stack trace:
-RoR2.EffectComponent.Start () (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
-
-[Info   : Unity Log] <style=cDeath><sprite name="Skull" tint=1> They will surely feast on <noparse>SerBasti</noparse>'s flesh. <sprite name="Skull" tint=1></style>
-[Info   : Unity Log] <style=cShrine><noparse>SerBasti</noparse> is... sequenced.</color>
-[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
-[Info   : Unity Log] Transfered 9.2 monster credits from Director (UnityEngine.GameObject) to Director (UnityEngine.GameObject)
-[Error  : Unity Log] Cannot set the parent of the GameObject 'Flames' while activating or deactivating the parent GameObject 'FireballGhost(Clone)'.
-[Info   : Unity Log] Unloaded scene blackbeach2
-[Info   : Unity Log] FlashWindow.Flash(77793852)
-[Info   : Unity Log] Active scene changed from  to lobby
-[Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
-[Info   : Unity Log] Merc
-[Info   : Unity Log] OnLobbyStateChanged memberStateChange=Entered initiatorUserId=76561198042620282 affectedUserId=76561198042620282
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/clavicle.r/upper_arm.r/lower_arm.r/MuzzleRight/HeldRoller/RollerMesh" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/Fire" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/JetsR" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/JetsL" relative to "mdlMage".
-[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/FireRing" relative to "mdlMage".
-[Info   : Unity Log] Press Enter to chat.
-[Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby currentSceneName=lobby
-[Info   : Unity Log] Client ready.
-[Info   : Unity Log] Player 0 already added, aborting.
-[Info   : Unity Log] Attempting to generate PreGameVoteController for Hugh G. Rection
-[Info   : Unity Log] Attempting to generate PreGameVoteController for SerBasti
-[Info   : Unity Log] Applying persistent ballot of votes for LocalUser Givanildo, The Capoeira Fighter.
-[Info   : Unity Log] Client ready.
-[Info   : Unity Log] Incoming Steamworks connection from Steam ID 76561198042620282: accepted
-[Info   : Unity Log] GameNetworkManager.AddPlayerInternal(conn=hostId: 0 connectionId: 2 isReady: False channel count: 8, playerControllerId=0, extraMessageReader=NetBuf sz:251 pos:251
-[Error  : Unity Log] There is already a player at that playerControllerId for this connections.
-[Info   : Unity Log] <style=cEvent>LeLeo connected.</color>
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Error  : Unity Log] WwiseUnity: EventCallbackPackage not found for <1813076736>.
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Error  : Unity Log] Object BeetleQueenScream(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Warning: Unity Log] Animator.GotoState: State could not be found
+[Warning: Unity Log] Invalid Layer Index '-1'
+[Error  : Unity Log] Object BeetleQueenScreamDeath(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
+[Info   : Unity Log] Saved file "66efcae5-9b2c-4e07-8c1d-27c142292fd4.xml" (120706 bytes)
+[Info   : Unity Log] Shutting down Steamworks...
+[Info   : Unity Log] Shut down Steamworks.
+[Info   : Unity Log] Transfered 4.4 monster credits from Director (UnityEngine.GameObject) to Director (UnityEngine.GameObject)
