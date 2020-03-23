@@ -25,39 +25,24 @@
 [Message: Preloader] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 27 plugins to load
+[Info   :   BepInEx] 23 plugins to load
 [Info   :   BepInEx] Loading [R2API 2.3.14]
-[Info   :     R2API] Enabling R2API Submodule: DifficultyAPI
-[Info   :     R2API] Enabling R2API Submodule: DirectorAPI
 [Info   :     R2API] Enabling R2API Submodule: EntityAPI
-[Info   :     R2API] Enabling R2API Submodule: ResourcesAPI
+[Info   :     R2API] Enabling R2API Submodule: LoadoutAPI
+[Info   :     R2API] Enabling R2API Submodule: PrefabAPI
 [Info   :     R2API] Enabling R2API Submodule: SkillAPI
 [Info   :     R2API] Enabling R2API Submodule: SurvivorAPI
-[Info   :     R2API] Enabling R2API Submodule: CommandHelper
 [Info   :     R2API] Enabling R2API Submodule: AssetPlus
 [Info   :   BepInEx] Loading [DronesInheritItems 2.4.5]
 [Info   : Unity Log] DronesInheritItems v2.4.5 Loaded!
 [Info   :   BepInEx] Loading [Screaming Vagrant 1.0.0]
+[Info   :   BepInEx] Loading [The Surgeon 1.1.0]
 [Info   :   BepInEx] Loading [Faster3DPrinters 1.0.0]
 [Info   :   BepInEx] Loading [ScalingBloodShrines 1.0.0]
-[Info   :   BepInEx] Loading [MobileTurretFungus 1.0]
 [Info   :   BepInEx] Loading [Ordered Items 2.1.0]
-[Info   :   BepInEx] Loading [MiniRpcLib 1.0]
-[Info   :MiniRpcLib] Initializing Logger
-[Info   :MiniRpcLib] Initializing MiniRpc
-[Info   :MiniRpcLib] 3923704355[0] Registering action | Server
-[Info   :MiniRpcLib] 3923704355[1] Registering action | Client
-[Info   :MiniRpcLib] 3923704355[2] Registering action | Client
-[Info   :MiniRpcLib] 3923704355[3] Registering action | Server
-[Info   :   BepInEx] Loading [DebugToolkit 3.2.1]
-[Info   :MiniRpcLib] 1008579798[0] Registering action | Client
-[Info   :DebugToolkit] Created by Harb, iDeathHD and . Based on RoR2Cheats by Morris1927.
-[Info   :MiniRpcLib] 1008579798[1] Registering action | Client
-[Info   :MiniRpcLib] 1008579798[2] Registering action | Client
-[Info   :MiniRpcLib] 1008579798[3] Registering action | Client
-[Info   :   BepInEx] Loading [Diluvian 1.0.2]
 [Info   :   BepInEx] Loading [HarbTweaks 1.0.0]
 [Message:HarbTweaks] Loaded Tweak: Bigger Lockboxes.
+[Message:HarbTweaks] Prepared Tweak: Commando Grenades are Impact.
 [Message:HarbTweaks] Loaded Tweak: First Stage Spawns.
 [Message:HarbTweaks] Loaded Tweak: Greedy Lockboxes.
 [Message:HarbTweaks] Loaded Tweak: Multishop Improvements.
@@ -67,18 +52,23 @@
 [Info   : Unity Log] Loaded StatsDisplayMod
 [Info   :   BepInEx] Loading [BazaarPrinter 0.1.1]
 [Info   :   BepInEx] Loading [BiggerBazaar 1.8.0]
-[Info   :   BepInEx] Loading [AllyPing 1.0.0]
 [Info   :   BepInEx] Loading [BalancedObliterate 1.1.6]
 [Info   :   BepInEx] Loading [Bandit Classic 1.5.3]
+[Info   :   BepInEx] Loading [Pingprovements 1.4.2]
 [Info   :   BepInEx] Loading [MultiTrackDriftingSurvivors 1.1.0]
 [Info   :   BepInEx] Loading [MultiTrackDriftingTurrets 2.0.0]
-[Info   :   BepInEx] Loading [ReinArchWisps 2.0.1]
+[Info   :   BepInEx] Loading [Artifacts 1.0.0]
 [Info   :   BepInEx] Loading [DropInMultiplayer 3.0.1]
 [Info   : Unity Log] Created by SushiDev with help from IdeathHD and Harb! Derived from DropInMultiplayer by Morris1927 with permission.
-[Info   :   BepInEx] Loading [Versatile Survivors 1.0.0]
 [Info   :   BepInEx] Loading [Silly Items 0.4.1]
 [Info   :   BepInEx] Loading [ItemStats 1.4.0]
-[Info   :   BepInEx] Loading [SequenceOnDeath 1.1.1]
+[Info   :   BepInEx] Loading [MiniRpcLib 1.0]
+[Info   :MiniRpcLib] Initializing Logger
+[Info   :MiniRpcLib] Initializing MiniRpc
+[Info   :MiniRpcLib] 3923704355[0] Registering action | Server
+[Info   :MiniRpcLib] 3923704355[1] Registering action | Client
+[Info   :MiniRpcLib] 3923704355[2] Registering action | Client
+[Info   :MiniRpcLib] 3923704355[3] Registering action | Server
 [Info   :   BepInEx] Loading [TooManyFriends 1.0]
 [Info   :   BepInEx] Loading [Skip Welcome Screen 1.0.1]
 [Message:   BepInEx] Chainloader startup complete
@@ -103,6 +93,7 @@
 [Info   : Unity Log] Initializing system: SteamworksServerManager
 [Info   : Unity Log] Initializing system: SurvivorCatalog
 [Warning: Unity Log] Unregistered survivor Bandit!
+[Info   :     R2API] Survivor: Surgeon added
 [Info   :     R2API] Survivor: Bandit added
 [Info   : Unity Log] Initializing system: UnlockableCatalog
 [Info   : Unity Log] Initializing system: UserProfile
@@ -161,37 +152,49 @@
 [Info   : Unity Log] stream.Length=120914
 [Info   : Unity Log] english
 [Info   : Unity Log] Setting current language to "en"
+[Info   : Unity Log] Givanildo, The Capoeira Fighter unlocked ???
+[Info   : Unity Log] Givanildo, The Capoeira Fighter unlocked ???
+[Info   : Unity Log] Givanildo, The Capoeira Fighter unlocked ???
+[Info   : Unity Log] Givanildo, The Capoeira Fighter unlocked ???
+[Info   : Unity Log] Givanildo, The Capoeira Fighter unlocked ???
 [Info   : Unity Log] Loaded archived convars.
 [Info   : Unity Log] Could not load config /Config/autoexec.cfg: Could not find file "C:\Program Files (x86)\Steam\steamapps\common\Risk of Rain 2\Risk of Rain 2_Data\Config\autoexec.cfg"
 [Info   : Unity Log] Active scene changed from  to title
 [Info   : Unity Log] Loaded scene title loadSceneMode=2
-[Info   :DebugToolkit] Loading all CSC's: 36
-[Info   :DebugToolkit] Loading all ISC's: 42
 [Message:HarbTweaks] Loaded Tweak: Shorter Medkits.
 [Info   : Unity Log] GameNetworkManager.desiredHost={ hostType=Self listen=False maxPlayers=4 }
 [Info   : Unity Log] Unloaded scene title
-[Info   : Unity Log] FlashWindow.Flash(1510222)
+[Info   : Unity Log] FlashWindow.Flash(262240)
 [Info   : Unity Log] Active scene changed from  to lobby
 [Info   : Unity Log] Loaded scene lobby loadSceneMode=Single
 [Info   : Unity Log] Adding local player controller 0 on connection hostId: -1 connectionId: 0 isReady: False channel count: 0
 [Info   : Unity Log] GameNetworkManager.AddPlayerInternal(conn=hostId: -1 connectionId: 0 isReady: False channel count: 0, playerControllerId=0, extraMessageReader=NetBuf sz:251 pos:251
-[Info   : Unity Log] FlashWindow.Flash(1510222)
+[Info   : Unity Log] FlashWindow.Flash(262240)
 [Info   : Unity Log] OnClientSceneChanged networkSceneName=lobby currentSceneName=lobby
 [Error  : Unity Log] A connection has already been set as ready. There can only be one.
 [Info   : Unity Log] Player 0 already added, aborting.
 [Info   : Unity Log] Attempting to generate PreGameVoteController for Boots, the Cowboy
 [Info   : Unity Log] <style=cEvent>Boots, the Cowboy connected.</color>
-[Warning: Unity Log] Could not find transform "HuntressArmature/ROOT/base/BowRoot/BowStringIKTarget/ArrowDisplay/Flash" relative to "mdlHuntress".
-[Warning: Unity Log] Could not find transform "ToolbotArmature/ROOT/base/stomach/chest/upper_arm.l/lower_arm.l/toolbase/speargun.base/speargun.spear/RebarMesh" relative to "mdlToolbot".
+[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/clavicle.r/upper_arm.r/lower_arm.r/MuzzleRight/HeldRoller/RollerMesh" relative to "mdlMage".
+[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/Fire" relative to "mdlMage".
+[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/JetsR" relative to "mdlMage".
+[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/JetsL" relative to "mdlMage".
+[Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/FireRing" relative to "mdlMage".
 [Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/clavicle.r/upper_arm.r/lower_arm.r/MuzzleRight/HeldRoller/RollerMesh" relative to "mdlMage".
 [Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/Fire" relative to "mdlMage".
 [Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/JetsR" relative to "mdlMage".
 [Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/JetsL" relative to "mdlMage".
 [Warning: Unity Log] Could not find transform "MageArmature/ROOT/base/stomach/chest/JetsOn/FireRing" relative to "mdlMage".
 [Info   : Unity Log] NetworkUser(Clone) (RoR2.NetworkUser)
-[Info   : Unity Log] voteController.SetVote(0, 2)
+[Info   : Unity Log] voteController.SetVote(1, 0)
 [Info   : Unity Log] NetworkUser(Clone) (RoR2.NetworkUser)
-[Info   : Unity Log] voteController.SetVote(0, 1)
+[Info   : Unity Log] voteController.SetVote(1, 1)
+[Info   : Unity Log] NetworkUser(Clone) (RoR2.NetworkUser)
+[Info   : Unity Log] voteController.SetVote(5, 0)
+[Info   : Unity Log] NetworkUser(Clone) (RoR2.NetworkUser)
+[Info   : Unity Log] voteController.SetVote(4, 0)
+[Info   : Unity Log] NetworkUser(Clone) (RoR2.NetworkUser)
+[Info   : Unity Log] voteController.SetVote(2, 0)
 [Info   : Unity Log] Unloaded scene lobby
 [Info   : Unity Log] Active scene changed from  to golemplains2
 [Info   : Unity Log] Loaded scene golemplains2 loadSceneMode=Single
@@ -204,30 +207,10 @@
 Stack trace:
 StatsDisplay.StatsDisplay.Update () (at <372153f7ecc04005aa28b4f525d700b7>:0)
 
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Tri-Tip Dagger</color></color>
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Warning: Unity Log] Animator.GotoState: State could not be found
-[Warning: Unity Log] Invalid Layer Index '-1'
-[Info   : Unity Log] GenericPickupController.HandlePickupMessage: Received pickup message.
-[Info   : Unity Log] <style=cEvent>You picked up <color=#FFFFFF>Bundle of Fireworks</color></color>
-[Info   : Unity Log] Saved file "66efcae5-9b2c-4e07-8c1d-27c142292fd4.xml" (120914 bytes)
+[Error  : Unity Log] Object PodGroundImpact(Clone) (UnityEngine.GameObject) should not be instantiated by means other than EffectManager.instance.SpawnEffect.
+[Info   : Unity Log] team and artifact OK
+[Info   : Unity Log] victimHurtBoxGroup OK
+[Info   : Unity Log] bombCount=10
 [Info   : Unity Log] Shutting down Steamworks...
 [Info   : Unity Log] Shut down Steamworks.
-[Error  : Unity Log] Cannot set the parent of the GameObject 'Flames' while activating or deactivating the parent GameObject 'FireballGhost(Clone)'.
-[Info   : Unity Log] Transfered 4.4 monster credits from Director (UnityEngine.GameObject) to Director (UnityEngine.GameObject)
-[Error  : Unity Log] Cannot set the parent of the GameObject 'Flames' while activating or deactivating the parent GameObject 'FireballGhost(Clone)'.
-[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
-Stack trace:
-RoR2.Projectile.ProjectileController.OnDestroy () (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
-
-[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
-Stack trace:
-RoR2.Projectile.ProjectileController.OnDestroy () (at <5cdee1c8afdf42e2a8df7bd1ae8dc681>:0)
-
-[Error  : Unity Log] Cannot set the parent of the GameObject 'Flames' while activating or deactivating the parent GameObject 'FireballGhost(Clone)'.
+[Info   : Unity Log] Transfered 12.8 monster credits from Director (UnityEngine.GameObject) to Director (UnityEngine.GameObject)
